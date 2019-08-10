@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Assignment 3 - Functional programming</title>
+</head>
+
+<body>
+    <p>The value returned is:</p>
+    <p id="demo"></p>
+    <script>
+        var numbers = [2, 4, 6, 8, 10, 12];
+        function getResult(item) {
+            var result = item * 2;
+            return result;
+        }
+        document.getElementById("demo").innerHTML = numbers.map(getResult);
+    </script>
+</body>
+
+</html>
